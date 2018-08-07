@@ -31,12 +31,20 @@ body{
 }
 
 #top_header{
-	font: bold 22px Tahoma; 
+padding-left: 20px;
+	font: bold 25px Tahoma; 
     color:  #4C9900;
 
 
    //  opacity:0.9;
 	}
+
+
+#top_header:hover{
+  font: bold 26px Tahoma; 
+   text-shadow: 1px 1px 1px blue;
+}
+
 
 #flag{
 font-size: 11px;
@@ -217,4 +225,18 @@ opacity: 1;
 #victoryDiv:hover{
 opacity: 0.8;
 
+}
+#the_footer{
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    border-top: 2px solid green;
+    color: #32CD32;
+    opacity: 0.7;
+}
+
+
+#the_footer:hover{
+    font-size: 14px;
+    color: beige;
 }
